@@ -1,0 +1,5 @@
+# View the database table
+aws dynamodb list-tables --endpoint-url http://localhost:8000
+
+# Delete table
+aws dynamodb delete-table --table-name dynamodb-user --endpoint-url http://localhost:8000
